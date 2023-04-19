@@ -1,0 +1,43 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{%static 'assets/css/style2.css'%}">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-lg-2 bg-light" style="height: 100vh; overflow-y: auto;">
+        <a class="navbar-brand" href="admin-dashboard">Dashboard</a>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="admin-contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="upload-picture">Upload</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admin/password/reset/">Reset Password</a> <!-- Add this link for password reset -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">Logout</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="col-lg-10">
+        <div class="container">
+          <h1 class="text-center">Welcome to the Dashboard</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

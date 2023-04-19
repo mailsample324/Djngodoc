@@ -1,0 +1,43 @@
+.body{
+    background-color: antiquewhite;
+    align-items: center;
+}
+.card {
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-header {
+    background-color: #f0f0f0;
+    border-bottom: none;
+  }
+  
+  .card-header h3.card-title {
+    margin-bottom: 0;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
